@@ -54,27 +54,22 @@
             </div>
         </div>
     </nav>
+    <div class="container">
+        <div class="herosection text-center p-5 opacity-75">
+            <img src="./img/logo.png" alt="logo" class="img-fluid mb-4">
+            <p class="lead">"CodeStream: A collaborative platform where diu.edu.bd email users can share code snippets,
+                thoughts, and files. <br> Featuring user authentication, profile management, file uploads, and
+                interactive post creation. Join
+                our community to streamline your coding journey!"
+            </p>
+            <h5 class="py-5">"Unlock the Power of Collaboration with CodeStream."
+                <button class="btn btn-outline-primary" type="button" data-bs-toggle="modal"
+                    data-bs-target="#joinModal">Join Us!</button>
+            </h5>
+        </div>
 
-    <div class="herosection text-center p-5 opacity-75">
-        <img src="./img/logo.png" alt="logo">
-        <p class="">"CodeStream: A collaborative platform where diu.edu.bd email users can share code
-            snippets,
-            thoughts, and
-            files. <br>
-            Featuring user authentication, profile management, file uploads, and interactive post creation.
-            Join
-            our community to streamline your coding journey!"
-        </p>
-        <h5 class="py-5">"To Unlock the Power of Collaboration with CodeStream." <button class="btn btn-outline-primary"
-                type="button"><a href="./signup.html"></a>Join Us!</button>
-        </h5>
-
-
-    </div>
-
-    <div class="p-5">
-        <div class="row">
-            <div class="col-4">
+        <div class="row p-5">
+            <div class="col-md-4">
                 <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
                     <nav class="nav nav-pills flex-column">
                         <a class="nav-link" href="#item-1">Why Us?</a>
@@ -92,7 +87,7 @@
                 </nav>
             </div>
 
-            <div class="col-8">
+            <div class="col-md-8">
                 <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
                     class="scrollspy-example-2" tabindex="0">
                     <div id="item-1">
@@ -125,8 +120,7 @@
                             <li>Providing a trusted and exclusive platform for students and faculty to connect and learn
                                 from each other.</li>
                             <li>Streamlining the coding journey by offering essential tools and resources in one
-                                centralized
-                                location.</li>
+                                centralized location.</li>
                             <li>Fostering a supportive environment where users can grow their skills and expand their
                                 network within the DIU community.</li>
 
@@ -136,8 +130,8 @@
                     <div id="item-2">
                         <h4 class="headingColor">Learning Opportunities:</h4>
                         <p class="opacity-75">CodeStream presents ample learning opportunities through shared code
-                            examples, tutorials, and
-                            discussions, empowering users to expand their knowledge and skills in various programming
+                            examples, tutorials, and discussions, empowering users to expand their knowledge and skills
+                            in various programming
                             languages and technologies.
                         </p>
                     </div>
@@ -173,6 +167,25 @@
                         </ul>
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Join Now Modal -->
+    <div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="joinModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="joinModalLabel">Join CodeStream</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    To become a Programmer, please email your CV along with your GitHub link and University ID with
+                    Batch to our HR department. Email: hr@codestream.com
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
